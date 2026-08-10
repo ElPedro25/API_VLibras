@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API - Vlibras</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body> <!-- Inicio do corpo da página -->
+<h3>Pedro Henrique De Melo</h3>
+<p>Senai Nami Jafet</p>
+    <p class="testeDaAPI">"A implementação da API VLibras transcende o cumprimento da Lei Brasileira de Inclusão, eliminando barreiras linguísticas na internet e democratizando o acesso à informação para a comunidade surda brasileira. A tradução automática automatizada de conteúdo textual para Libras fortalece a autonomia do usuário e reforça a responsabilidade social da marca no ambiente digital. Para mais informações, visite o site oficial do VLibras."</p>
+
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+</body> <!-- Fim do corpo da página -->
+</html>
